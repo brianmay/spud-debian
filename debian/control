@@ -9,7 +9,7 @@ Build-Depends: debhelper (>=9), dh-python, libjs-jquery, libjs-jquery-ui,
  python-setuptools-scm, python-pytest, python-mock,
  cssmin, slimit,
 Homepage: https://github.com/brianmay/spud
-Standards-Version: 3.9.6
+Standards-Version: 3.9.7
 X-Python-Version: >= 2.7
 
 Package: spud
