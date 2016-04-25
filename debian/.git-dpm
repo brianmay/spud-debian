@@ -6,3 +6,6 @@
 spud_2.0.3.orig.tar.gz
 0c4eb7fa3ff8402bd8a0cb1daace20d912175c63
 854385
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"
