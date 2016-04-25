@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+PREFIX = debian/spud
+
+export PYBUILD_NAME=spud
+
+%:
+	dh $@ --with python2 --buildsystem=pybuild
+
+override_dh_auto_test:
+	PYTHONPATH=. \
+	    dh_auto_test -- --system=custom --test-args="{interpreter} /usr/bin/py.test"
+
+override_dh_auto_build:
+	tsc spud/static/js/*.ts
+	dh_auto_build
+
+.PHONY: override_dh_clean
+override_dh_clean:
+	dh_clean
+	rm -rf tmp spud/static/js/*.js
