@@ -4,7 +4,7 @@ spud (2.0.3-1) unstable; urgency=medium
   * Add more tests.
   * Remove pipeline TypescriptCompiler - has problems with debugging.
 
- -- Brian May <bam@debian.org>  Mon, 21 Mar 2016 11:59:13 +1100
+ -- Brian May <bam@debian.org>  Mon, 25 Apr 2016 18:53:49 +1000
 
 spud (2.0.2-1) unstable; urgency=medium
 
