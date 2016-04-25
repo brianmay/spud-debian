@@ -11,7 +11,7 @@ export PYBUILD_NAME=spud
 
 override_dh_auto_test:
 	PYTHONPATH=. \
-	    dh_auto_test -- --system=custom --test-args="{interpreter} /usr/bin/py.test"
+	    dh_auto_test -- --system=custom --test-args="{interpreter} -m pytest"
 
 override_dh_auto_build:
 	tsc spud/static/js/*.ts
