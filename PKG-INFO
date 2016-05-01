@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: spud
-Version: 2.0.4
+Version: 2.0.5
 Summary: SPUD is a Sortable Photo album Using a Django based database.
 Home-page: https://github.com/brianmay/spud
 Author: Brian May
