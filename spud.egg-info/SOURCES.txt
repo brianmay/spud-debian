@@ -10,6 +10,7 @@ eslint.json
 manage.py
 pytest.ini
 run_tests.sh
+setup.cfg
 setup.py
 tox.ini
 bin/spud
@@ -60,6 +61,7 @@ spud/migrations/0010_auto_20150324_0920.py
 spud/migrations/0011_auto_20151121_1735.py
 spud/migrations/0012_auto_20151121_1737.py
 spud/migrations/0013_auto_20151231_1146.py
+spud/migrations/0014_auto_20160501_1120.py
 spud/migrations/__init__.py
 spud/south_migrations/0001_initial.py
 spud/south_migrations/0002_auto__add_field_photo_action.py
@@ -177,16 +179,6 @@ spud/static/js/external/jquery.js
 spud/static/js/external/moment-timezone-with-data.js
 spud/static/js/external/moment-with-locales.js
 spud/static/js/external/showdown.js
-spud/static/js/old/category.js
-spud/static/js/old/category.ts
-spud/static/js/old/feedback.js
-spud/static/js/old/feedback.ts
-spud/static/js/old/person.js
-spud/static/js/old/person.ts
-spud/static/js/old/photo.js
-spud/static/js/old/photo.ts
-spud/static/js/old/place.js
-spud/static/js/old/place.ts
 spud/templates/404.html
 spud/templates/500.html
 spud/templates/base.html
