@@ -1,8 +1,8 @@
-spud (2.0.4-1) UNRELEASED; urgency=medium
+spud (2.0.5-1) unstable; urgency=medium
 
   * New upstream version.
 
- -- Brian May <bam@debian.org>  Mon, 25 Apr 2016 19:10:49 +1000
+ -- Brian May <bam@debian.org>  Sun, 01 May 2016 17:25:42 +1000
 
 spud (2.0.3-1) unstable; urgency=medium
 
